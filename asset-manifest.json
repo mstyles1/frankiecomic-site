@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/frankiecomic-site/static/css/main.5d3f5c6c.css",
+    "main.js": "/frankiecomic-site/static/js/main.cd653831.js",
+    "static/media/book1cover.png": "/frankiecomic-site/static/media/book1cover.2b3bd3a91ebaf25a4868.png",
+    "index.html": "/frankiecomic-site/index.html",
+    "main.5d3f5c6c.css.map": "/frankiecomic-site/static/css/main.5d3f5c6c.css.map",
+    "main.cd653831.js.map": "/frankiecomic-site/static/js/main.cd653831.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d3f5c6c.css",
+    "static/js/main.cd653831.js"
+  ]
+}
