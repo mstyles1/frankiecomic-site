@@ -7,7 +7,7 @@ import Shop from './components/Shop';
 function App() {
   return (
     <Router>
-      <nav>
+      <nav className="navbar">
         <Link to="/">LANDING</Link>
         <Link to="/gallery">GALLERY</Link>
         <Link to="/blog">BLOG</Link>
