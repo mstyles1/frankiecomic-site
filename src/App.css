@@ -1,3 +1,4 @@
+/* General */
 body {
   margin: 0;
   font-family: sans-serif;
@@ -20,3 +21,21 @@ body {
 .page {
   padding: 2rem;
 }
+
+/* Shop Page */
+.product {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+}
+
+.product-header {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.product img {
+  max-width: 150px;
+}
+

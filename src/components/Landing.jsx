@@ -7,7 +7,7 @@ function Landing() {
         <h1>FRANKIE LANGLEY</h1>
         <p>
           An aging mail courier enrolls in a mentor program to afford her
-          retirement...Read the action packed sci-fi adventure
+          retirement...Read the action-packed sci fi adventure
           <Link to="/shop"> today!</Link>
         </p>
       </div>

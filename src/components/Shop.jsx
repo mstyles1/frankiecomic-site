@@ -1,4 +1,5 @@
 import "../App.css";
+import book1cover from "../images/book1cover.png";
 
 function Shop() {
   return (
@@ -7,6 +8,11 @@ function Shop() {
         <h1>SHOP</h1>
 
         <div className="product">
+          <img
+            src={book1cover}
+            alt="Cover - Frankie Langley Book 1"
+            className="product-image"
+          />
           <div className="product-header">
             BOOK 1: FRANKIE LANGLEY and the Inter-Galactic Post-Office – $15
           </div>
