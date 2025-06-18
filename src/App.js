@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import Shop from './components/Shop';
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
       <nav className="navbar">
         <Link to="/">LANDING</Link>
         <Link to="/gallery">GALLERY</Link>
