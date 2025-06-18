@@ -15,7 +15,7 @@ function Shop() {
             className="product-image"
           />
           <div className="product-header">
-            BOOK 1: FRANKIE LANGLEY and the Inter-Galactic Post Office – $15
+            $15 -- FRANKIE LANGLEY and the Inter-Galactic Post Office -- BOOK 1
           </div>
 
           <form
@@ -52,7 +52,7 @@ function Shop() {
             className="product-image"
           />
           <div className="product-header">
-            BOOK 1: FRANKIE LANGLEY and the Inter-Galactic Post Office – $50
+            $50 -- FRANKIE LANGLEY and the Inter-Galactic Post Office -- BOOK 1 SHOP BUNDLE (5 BOOKS)
           </div>
 
           <form
