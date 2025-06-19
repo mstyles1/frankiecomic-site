@@ -29,6 +29,11 @@ body {
   padding: 2rem;
 }
 
+/* Landing Page */
+.cover-image {
+  max-width: 250px;
+}
+
 /* Shop Page */
 .product {
   margin: 2rem 0;
