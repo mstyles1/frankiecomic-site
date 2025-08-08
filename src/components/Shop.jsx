@@ -21,25 +21,22 @@ function Shop() {
           <form
             action="https://www.paypal.com/cgi-bin/webscr"
             method="post"
-            target="_blank"
+            target="_top"
           >
             <input type="hidden" name="cmd" value="_s-xclick" />
             <input
               type="hidden"
               name="hosted_button_id"
-              value="5MXM7859QTP7U"
+              value="R9GWRPMEH5FZQ"
             />
+            <input type="hidden" name="currency_code" value="USD" />
             <input
               type="image"
-              src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
+              src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif"
+              border="0"
               name="submit"
-              alt="Buy Now with PayPal"
-            />
-            <img
-              alt=""
-              src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-              width="1"
-              height="1"
+              title="PayPal - The safer, easier way to pay online!"
+              alt="Buy Now"
             />
           </form>
         </div>
@@ -52,7 +49,8 @@ function Shop() {
             className="product-image"
           />
           <div className="product-header">
-            $50 -- FRANKIE LANGLEY and the Inter-Galactic Post Office -- BOOK 1 SHOP BUNDLE (5 BOOKS)
+            $50 -- FRANKIE LANGLEY and the Inter-Galactic Post Office -- BOOK 1
+            SHOP BUNDLE (5 BOOKS)
           </div>
 
           <form
