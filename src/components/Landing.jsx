@@ -30,15 +30,8 @@ function Landing() {
             An aging mail courier enrolls in a mentor program to earn her long
             deserved freedom from the devastating drenches of intergalactic
             postal work... Read the action-packed sci-fi adventure {""}
-            <Link
-              to="/shop"
-              style={{
-                color: "#111",
-                textDecoration: "none",
-                fontWeight: "bold",
-              }}
-            >
-               today!
+            <Link to="/shop" className="landing-link">
+              today!
             </Link>
           </div>
         </div>

@@ -92,6 +92,17 @@ body {
   border: 3px solid #535658; /* matching frame color */
 }
 
+.landing-link {
+  color: #111; /* normal color */
+  font-weight: normal; /* normal text by default */
+  text-decoration: none; /* remove underline */
+  transition: font-weight 0.1s ease; /* smooth transition */
+}
+
+.landing-link:hover {
+  font-weight: 1000; /* bold on hover */
+}
+
 /* Image & overlay button */
 .image-container {
   position: relative;
@@ -102,10 +113,11 @@ body {
   position: absolute;
   bottom: -15px;
   right: -15px;
-  background: #d69181;
+  background: #f6eb81;
   color: black;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 500;
   font-size: 16px;
   width: 100px;
   height: 100px;
