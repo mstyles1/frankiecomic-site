@@ -39,7 +39,7 @@ body {
 }
 
 .landing-header {
-  display: inline-block;       /* shrink box to text */
+  display: inline-block; /* shrink box to text */
   padding: 1rem 1rem;
   margin-bottom: 1rem;
   background-color: black;
@@ -81,9 +81,10 @@ body {
 
 /* Text box with transparency + border */
 .landing-text {
-  font-family: "Josefin", sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   max-width: 600px;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 1rem;
   background-color: rgba(164, 160, 174, 0.85); /* #A4A0AE with transparency */
   padding: 1rem 1.5rem;
@@ -99,22 +100,28 @@ body {
 
 .overlay-button {
   position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #111;
-  color: #fff;
+  bottom: -15px;
+  right: -15px;
+  background: #d69181;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 16px;
-  padding: 0.8rem 1.2rem;
-  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column; /* stack text lines */
+  align-items: center; /* horizontal center */
+  justify-content: center; /* vertical center */
+  text-align: center;
   text-decoration: none;
   transition: background 0.3s ease;
-  max-width: 80%;
-  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .overlay-button:hover {
-  background: #333;
+  background: #d99e74;
 }
 
 .cover-image,
@@ -122,13 +129,6 @@ body {
   height: auto;
   max-width: 250px;
   border-radius: 8px;
-}
-
-.landing-text {
-  font-family: "Josefin", sans-serif;
-  max-width: 600px;
-  font-size: 20px;
-  margin-top: 1rem;
 }
 
 @media (max-width: 768px) {

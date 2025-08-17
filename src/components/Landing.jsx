@@ -11,7 +11,9 @@ function Landing() {
       <div className="landing-wrapper">
         {/* Left Section */}
         <div className="landing-box">
-          <h2>The <i>FRANKIE LANGLEY</i> Series</h2>
+          <h2>
+            The <i>FRANKIE LANGLEY</i> Series
+          </h2>
           <div className="image-container">
             <img
               src={frankiestandardcover}
@@ -19,14 +21,25 @@ function Landing() {
               className="cover-image"
             />
             <Link to="/shop" className="overlay-button">
-              Book 1 in the Frankie Langley series available now!
+              Book One
+              <br />
+              Available Now!
             </Link>
           </div>
           <div className="landing-text">
             An aging mail courier enrolls in a mentor program to earn her long
             deserved freedom from the devastating drenches of intergalactic
-            postal work... Read the action-packed sci-fi adventure
-            <Link to="/shop"> today!</Link>
+            postal work... Read the action-packed sci-fi adventure {""}
+            <Link
+              to="/shop"
+              style={{
+                color: "#111",
+                textDecoration: "none",
+                fontWeight: "bold",
+              }}
+            >
+               today!
+            </Link>
           </div>
         </div>
 
