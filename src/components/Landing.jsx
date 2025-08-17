@@ -11,6 +11,7 @@ function Landing() {
       <div className="landing-wrapper">
         {/* Left Section */}
         <div className="landing-box">
+          <h2>The <i>FRANKIE LANGLEY</i> Series</h2>
           <div className="image-container">
             <img
               src={frankiestandardcover}

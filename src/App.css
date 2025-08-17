@@ -34,6 +34,11 @@ body {
 }
 
 /* Landing Page */
+.landing-header {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
 .landing-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -52,6 +57,28 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+/* Frame around images */
+.cover-image,
+.about-image {
+  height: auto;
+  max-width: 250px;
+  border-radius: 8px;
+  border: 4px solid #535658; /* frame color */
+  background-color: #fff; /* optional, makes frame stand out */
+}
+
+/* Text box with transparency + border */
+.landing-text {
+  font-family: "Josefin", sans-serif;
+  max-width: 600px;
+  font-size: 20px;
+  margin-top: 1rem;
+  background-color: rgba(164, 160, 174, 0.85); /* #A4A0AE with transparency */
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: 3px solid #535658; /* matching frame color */
 }
 
 /* Image & overlay button */
