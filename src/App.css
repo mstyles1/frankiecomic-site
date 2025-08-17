@@ -5,6 +5,10 @@ html {
   padding: 0;
   overflow-x: hidden;
   width: 100%;
+  background-image: url("./images/landing-background.jpg");
+  background-size: contain; /* makes it fill the screen */
+  background-attachment: fixed; /* stays still on scroll */
+  background-position: center; /* centered nicely */
 }
 
 body {
@@ -31,14 +35,20 @@ body {
 .page {
   font-family: "PixelCode";
   padding: 2rem;
+  text-align: center;
 }
 
-/* Landing Page */
 .landing-header {
-  text-align: center;
+  display: inline-block;       /* shrink box to text */
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  background-color: black;
+  color: white;
   font-size: 2.5rem;
-  padding-bottom: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
 }
+
 .landing-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -49,7 +59,7 @@ body {
 .landing-box {
   flex: 1 1 40%; /* narrower base width */
   max-width: 500px; /* prevent giant expansion */
-  background: #a5ada5;
+  background: rgba(165, 173, 165, 0.85); /* #a5ada5 with 85% opacity */
   border-radius: 12px;
   padding: 1.5rem; /* a little smaller padding */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
