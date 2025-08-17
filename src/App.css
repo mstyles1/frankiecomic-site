@@ -94,13 +94,15 @@ body {
 
 .landing-link {
   color: #111; /* normal color */
-  font-weight: normal; /* normal text by default */
-  text-decoration: none; /* remove underline */
-  transition: font-weight 0.1s ease; /* smooth transition */
+  font-weight: 600; /* slightly heavier by default */
+  text-decoration: none;
+  display: inline-block; /* allow transform without affecting surrounding text */
+  transition: transform 0.2s ease, font-weight 0.2s ease;
 }
 
 .landing-link:hover {
-  font-weight: 1000; /* bold on hover */
+  transform: scale(1.09); /* grow slightly */
+  font-weight: 900; /* bolder on hover */
 }
 
 /* Image & overlay button */

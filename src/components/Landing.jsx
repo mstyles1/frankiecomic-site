@@ -27,12 +27,12 @@ function Landing() {
             </Link>
           </div>
           <div className="landing-text">
-            An aging mail courier enrolls in a mentor program to earn her long
-            deserved freedom from the devastating drenches of intergalactic
-            postal work... Read the action-packed sci-fi adventure {""}
-            <Link to="/shop" className="landing-link">
-              today!
-            </Link>
+            An aging mail courier trains a bright-eyed recruit to earn her
+            retirement from perilous postal work. Across their intergalactic
+            adventures, the bond they form may be the only means to survive a
+            space frontier that profits from their exploitation. Read {""}
+            <Link to="/shop" className="landing-link"> Book One </Link> {""} 
+            in the <i>Frankie Langley</i>{""} Trilogy today!
           </div>
         </div>
 
