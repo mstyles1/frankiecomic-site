@@ -27,12 +27,17 @@ function Landing() {
             </Link>
           </div>
           <div className="landing-text">
-            An aging mail courier trains a bright-eyed recruit to earn her
-            retirement from perilous postal work. Across their intergalactic
+            A world wearied courier trains a bright-eyed recruit to earn
+            her retirement from perilous postal work. Across their intergalactic
             adventures, the bond they form may be the only means to survive a
             space frontier that profits from their exploitation. Read {""}
-            <Link to="/shop" className="landing-link"> Book One </Link> {""} 
-            in the <i>Frankie Langley</i>{""} Trilogy today!
+            <Link to="/shop" className="landing-link">
+              {" "}
+              Book One{" "}
+            </Link>{" "}
+            {""}
+            in the <i>Frankie Langley</i>
+            {""} trilogy today!
           </div>
         </div>
 
@@ -41,12 +46,13 @@ function Landing() {
           <h2>Meet Matt and Andy</h2>
           <img src={andyandme} alt="Me Profile" className="about-image" />
           <div className="landing-text">
-            Andy Gordon and Matt Styles independently produced their dream comic
-            in their home of Knoxville, TN. The southeastern artists are
-            determined to tackle themes relevant to their home. FRANKIE LANGLEY
-            is a three-part graphic novel series that incorporates their
-            passions into a focused exploration of workers' rights and
-            resilience in the face of corruption. Hope y'all love it!
+            Artist, Andy Gordon and writer, Matt Styles independently produced
+            their dream comic out of their home of Knoxville, TN. The
+            southeastern artists tackle themes central to the history of
+            workers' rights and labor movements. <i>FRANKIE LANGLEY</i> is a three-part
+            graphic novel series that focuses their passions into an
+            action-packed, sci-fi adventure about compassionate resilience and
+            the ever-growing self.
           </div>
         </div>
       </div>
