@@ -83,7 +83,6 @@ body {
   text-align: center;
 }
 
-/* Frame around images */
 .cover-image,
 .about-image {
   height: auto;
@@ -93,7 +92,6 @@ body {
   background-color: #fff; /* optional, makes frame stand out */
 }
 
-/* Text box with transparency + border */
 .landing-text {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -159,20 +157,9 @@ body {
   border-radius: 8px;
 }
 
-@media (max-width: 768px) {
-  .landing-wrapper {
-    flex-direction: column;
-  }
-
-  .landing-left,
-  .landing-right {
-    flex: 1 1 100%;
-  }
-}
-
 /* Shop Page */
 .product-box {
-  background: rgba(165, 173, 165, 0.85);
+  background-color: rgba(83, 86, 88, 0.5); /* 50% opacity */
   border-radius: 12px;
   padding: 2rem;
   margin: 2rem auto;
@@ -196,16 +183,20 @@ body {
   max-width: 12rem;
   max-height: 15rem;
   border-radius: 6px;
-  border: black;
+  border: 3px solid #535658; /* frame color */
   margin-bottom: 0.75rem;
 }
 
 .product-details {
-  background: rgba(165, 173, 165, 0.85);
+  background: rgba(165, 173, 165, 0.9);
   border-radius: 12px;
   padding: 1rem;
   text-align: center;
-  width: 100%;
+  min-width: 250px;
+  min-height: 70px; /* ensures all boxes are at least this tall */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centers content vertically */
 }
 
 .product-header {
@@ -214,7 +205,7 @@ body {
 }
 
 .product-purchase {
-  background: #FFD93D; /* bright yellow */
+  background: #f6eb81;
   border-radius: 8px;
   padding: 0.5rem;
   display: inline-block;
@@ -224,6 +215,21 @@ body {
   font-weight: bold;
   margin-right: 0.5rem;
 }
+.paypal-button {
+  background-color: #f6eb81; /* your custom color */
+  color: #000; /* text color */
+  font-family: "Arial", sans-serif; /* replace with your font */
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px; /* rounded corners */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.paypal-button:hover {
+  transform: scale(1.18); /* hover effect */
+}
 
 .site-footer {
   background-color: black;
@@ -232,6 +238,17 @@ body {
   padding: 1rem 0;
   font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .landing-wrapper {
+    flex-direction: column;
+  }
+
+  .landing-left,
+  .landing-right {
+    flex: 1 1 100%;
+  }
 }
 
 /* Fonts */
