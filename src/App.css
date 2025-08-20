@@ -188,47 +188,95 @@ body {
 }
 
 .product-details {
+  padding: 20px;
   background: rgba(165, 173, 165, 0.9);
   border-radius: 12px;
-  padding: 1rem;
   text-align: center;
   min-width: 250px;
-  min-height: 70px; /* ensures all boxes are at least this tall */
+  min-height: 220px; /* keeps all boxes uniform */
   display: flex;
   flex-direction: column;
-  justify-content: center; /* centers content vertically */
 }
 
 .product-header {
-  font-weight: bold;
-  margin-bottom: 0.75rem;
+  color: black;
+  font-family: "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0; /* no space below header */
+}
+
+.product-blurb {
+  background: #d69181;
+  color: black;
+  font-family: "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  margin-top: 1rem;
+
+  display: inline-block; /* shrink-wrap to text */
+  padding: 0.2rem 0.5rem; /* some breathing room */
+  border-radius: 6px; /* optional rounded corners */
+}
+
+.product-size {
+  margin-top: 1rem; /* tiny space under header */
+  margin-bottom: 3.5rem;
 }
 
 .product-purchase {
   background: #f6eb81;
   border-radius: 8px;
-  padding: 0.5rem;
-  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: background-color 0.2s ease;
+  margin: 0 auto; /* centers inside the box */
+  width: auto;
+  max-width: 150px;
+}
+
+.product-purchase:hover {
+  background: #d99e74;
 }
 
 .product-purchase .price {
   font-weight: bold;
-  margin-right: 0.5rem;
-}
-.paypal-button {
-  background-color: #f6eb81; /* your custom color */
-  color: #000; /* text color */
-  font-family: "Arial", sans-serif; /* replace with your font */
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 10px; /* rounded corners */
-  cursor: pointer;
-  transition: transform 0.2s ease;
+  color: black;
 }
 
-.paypal-button:hover {
-  transform: scale(1.18); /* hover effect */
+.paypal-button {
+  font-size: 0.9rem;
+  background: transparent;
+  color: black;
+  font-family: "PixelCode", monospace;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.product-purchase:hover {
+  background: #d99e74;
+}
+
+.product-purchase .price {
+  font-weight: bold;
+  color: black;
+}
+
+.paypal-button {
+  font-size: 1rem;
+  background: transparent; /* no background since container has it */
+  color: black;
+  font-family: "PixelCode";
+  font-weight: bold;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 .site-footer {

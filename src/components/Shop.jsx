@@ -21,29 +21,33 @@ function Shop() {
               />
 
               <div className="product-details">
-                <div className="product-header">
-                  FRANKIE LANGLEY and the Inter-Galactic Post Office -- BOOK 1
+                <div className="product-text">
+                  <div className="product-header">
+                    FRANKIE LANGLEY <i>and the Inter-Galactic Post Office</i>
+                  </div>
+                  <div className="product-blurb">BOOK 1</div>
+                  <div className="product-size">PAPERBACK</div>
                 </div>
-              </div>
 
-              <div className="product-purchase">
-                <span className="price">$15</span>
-                <form
-                  action="https://www.paypal.com/cgi-bin/webscr"
-                  method="post"
-                  target="_top"
-                >
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input
-                    type="hidden"
-                    name="hosted_button_id"
-                    value="R9GWRPMEH5FZQ"
-                  />
-                  <input type="hidden" name="currency_code" value="USD" />
-                  <button type="submit" className="paypal-button">
-                    Buy Now
-                  </button>
-                </form>
+                <div className="product-purchase">
+                  <span className="price">$15</span>
+                  <form
+                    action="https://www.paypal.com/cgi-bin/webscr"
+                    method="post"
+                    target="_top"
+                  >
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input
+                      type="hidden"
+                      name="hosted_button_id"
+                      value="R9GWRPMEH5FZQ"
+                    />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <button type="submit" className="paypal-button">
+                      BUY NOW
+                    </button>
+                  </form>
+                </div>
               </div>
             </div>
 
@@ -56,30 +60,33 @@ function Shop() {
               />
 
               <div className="product-details">
-                <div className="product-header">
-                  FRANKIE LANGLEY and the Inter-Galactic Post Office -- BOOK 1
-                  SHOP BUNDLE (5 BOOKS)
+                <div className="product-text">
+                  <div className="product-header">
+                    FRANKIE LANGLEY <i>and the Inter-Galactic Post Office</i>
+                  </div>
+                  <div className="product-blurb">BOOK 1</div>
+                  <div className="product-size">SHOP BUNDLE (5 PAPERBACKS)</div>
                 </div>
-              </div>
 
-              <div className="product-purchase">
-                <span className="price">$50</span>
-                <form
-                  action="https://www.paypal.com/cgi-bin/webscr"
-                  method="post"
-                  target="_blank"
-                >
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input
-                    type="hidden"
-                    name="hosted_button_id"
-                    value="NYE566JVFCNNL"
-                  />
-                  <input type="hidden" name="currency_code" value="USD" />
-                  <button type="submit" className="paypal-button">
-                    Buy Now
-                  </button>
-                </form>
+                <div className="product-purchase">
+                  <span className="price">$50</span>
+                  <form
+                    action="https://www.paypal.com/cgi-bin/webscr"
+                    method="post"
+                    target="_blank"
+                  >
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input
+                      type="hidden"
+                      name="hosted_button_id"
+                      value="NYE566JVFCNNL"
+                    />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <button type="submit" className="paypal-button">
+                      BUY NOW
+                    </button>
+                  </form>
+                </div>
               </div>
             </div>
           </div>

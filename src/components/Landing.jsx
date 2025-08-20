@@ -12,7 +12,7 @@ function Landing() {
         {/* Left Section */}
         <div className="landing-box">
           <h2>
-            The <i>FRANKIE LANGLEY</i> Series
+            The FRANKIE LANGLEY Series
           </h2>
           <div className="image-container">
             <img
