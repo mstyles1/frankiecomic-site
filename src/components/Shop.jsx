@@ -105,17 +105,10 @@ function Shop() {
 
                 <div className="product-purchase">
                   <form
-                    action="https://www.paypal.com/cgi-bin/webscr"
+                    action="https://www.paypal.com/ncp/payment/CR7WPV6HA7EES"
                     method="post"
                     target="_blank"
                   >
-                    <input type="hidden" name="cmd" value="_s-xclick" />
-                    <input
-                      type="hidden"
-                      name="hosted_button_id"
-                      value="NYE566JVFCNNL"
-                    />
-                    <input type="hidden" name="currency_code" value="USD" />
                     <button type="submit" className="paypal-button">
                       $10 PURCHASE
                     </button>
