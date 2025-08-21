@@ -18,38 +18,38 @@ body {
   color: #333;
 }
 
+.page {
+  font-family: "PixelCode";
+  padding: 2rem;
+  text-align: center;
+}
+
+/* NavBar */
 .navbar {
   background-color: #111;
-  padding: 1rem;
+  padding: 0.75rem 1rem;
   display: flex;
-  justify-content: space-between; /* push social icon to right */
+  justify-content: space-between; /* pushes links left, icon right */
   align-items: center;
+  flex-wrap: wrap; /* allow wrapping on small screens */
 }
 
 .nav-links {
   display: flex;
-  gap: 1rem;
+  gap: 0.75rem;
+  flex-wrap: wrap; /* let them wrap on small screens */
 }
 
 .navbar a {
   font-family: "PixelCode";
   color: white;
   text-decoration: none;
-}
-
-.nav-social a {
-  display: inline-block;
+  font-size: 0.9rem; /* slightly smaller so all fit */
 }
 
 .social-icon {
-  width: 24px; /* size of the Instagram icon */
-  height: 24px;
-}
-
-.page {
-  font-family: "PixelCode";
-  padding: 2rem;
-  text-align: center;
+  width: 22px;
+  height: 22px;
 }
 
 .landing-header {
@@ -288,6 +288,7 @@ body {
   font-size: 14px;
 }
 
+/* Mobile Page */
 @media (max-width: 768px) {
   .landing-wrapper {
     flex-direction: column;
@@ -296,6 +297,41 @@ body {
   .landing-left,
   .landing-right {
     flex: 1 1 100%;
+  }
+}
+
+/* Mobile Navbar */
+@media (max-width: 600px) {
+  .nav-links {
+    gap: 0.5rem;
+  }
+  .navbar a {
+    font-size: 0.8rem; /* shrink link text on very small screens */
+  }
+  .social-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Tablet Shop */
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile Shop */
+@media (max-width: 600px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+  .product-image {
+    max-width: 80%; /* bigger image on mobile */
+    height: auto;
+  }
+  .product-details {
+    min-width: auto; /* allow box to shrink */
   }
 }
 
