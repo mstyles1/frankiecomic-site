@@ -25,7 +25,7 @@ function Contact() {
           </a>
 
           <a
-            href="https://www.instagram.com/YOUR_ANDY_INSTAGRAM"
+            href="https://www.instagram.com/andygordonart/"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-box"
